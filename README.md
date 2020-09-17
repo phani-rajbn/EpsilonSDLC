@@ -1,6 +1,6 @@
 # EpsilonSDLC
 
-##Software development Life Cycle
+#Software development Life Cycle
 
 <pre>
 
