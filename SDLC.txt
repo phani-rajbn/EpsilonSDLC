@@ -1,0 +1,229 @@
+Software Engineer vs Software Developer?
+A software engineer is a professional who applies the principles of software engineering for designing, development, maintenance, testing, and evaluation of the computer software. This would usually involve a team of engineers each of them involved in making the software. 
+
+Software developers are professionals who build the software to run on a specific computer or various types of computers. They are always targetted on a certain domain on which they develop the software. They use tools for developing the software. 
+
+Key differences:
+Software engineering as team activity while the software developer is primarily a solitary activity. 
+S/w Engineer might work directly with a certain hardware and other components of the hardware systems whereas S/w developer writes a programs that runs on a certain hardware. 
+S/w engineer creates the tools to develop the software while s/w developers use the ready made tools to build the apps. 
+s/w engineer tends to work/solve issues on a much larger scale of audience whereas the s/w developers tend to to everything on a limited scale targetting a certain domain or audience. 
+
+Career paths: Software engineer: S/w Engineer, Principal S/w Engineer, Lead s/w development engineer. 
+Software developer: Developer, S/w Architect, Management level. 
+
+
+best practises for s/w engineer:
+They work in such a way that it is beneficial to both the client and the employer. 
+Ensure that the products should meet the highest professional stds...
+Able to maintain the integrety and independence in their professional approach. 
+Should be supportive of their colleagues. 
+
+best practises for s/w developer:
+Focused to completing the software to drive the overall business of the client. 
+Uses the code efficiently in the project.
+Write the daily coding goals and completing it. 
+Planning on how to apprach the immediate coding task. 
+
+----------------Software Development Life Cycle-----------------------------------------
+SDLC is a process that creates a structure of development of the software. 
+
+What is SDLC?
+"SDLC is a systemmatic process for building the software that ensures the qualitity and correctness of the software built.  It aims to produce high quality software that meet the customer expectations. The System developement shouild be complete in a pre-defined time frame and cost. It contains a detailed plan which explains how, what to build, maintain the specifc software. Each of these phases has its own process and deliverables that feed into the next phase. SDLC stands for Software development life cycle".
+
+Why SDLC?
+It provides a basis for project planning, scheduling and estimation. 
+It gives a framework for a std set of activites and deliverables. 
+It provides a mechanism of project tracking and control. 
+Increases the visiblity of the project planning that involves all the stack holders of the development process. 
+It increases the development speed of the software development. 
+It makes U anticipate the project risks and the management plan overheads and be prepared for it. 
+The process will be mostly fool-proof so it improves the client relations. 
+
+SDLC Phases:
+Requirement Collection and analysis: 
+First Stage of the SDLC process. 
+Conducted by senior Team members with inputs from all the stack holders and domain experts.
+Gives the clear picture of the scope of the project, current status, and expections as outcome of the project. 
+Anticipate issues and directions for the flow of the project. 
+Need a lot of expertise in the domain as well as the project life cycle to finalize the necessary timeline to finish the work of that system. 
+
+Feasibility study:
+After the requirement gathering, U need to define and document software needs. This process is conducted with the help of 'Software requirement specification' (SRS Document). It include every part of the project process.  It includes 5 types of feasibility checks:
+Economical: Can we complete the project within the budget or not?
+Legal: handle the project as per the cyber laws of the client's country and other regulatory compliances. 
+Operations: Can we create these operations which is expected by the client?
+Technical: Whether the current system support this software. Need for external hardware devices,.
+Schedule: Decide that the project can be completed within the given schedule or not. 
+
+Design:
+Here the software and the System design documents are prepared as per the requirement Spec(SRS). This helps define the overall system architecture. 
+2 Types of Design Docs:
+High Level Design Document:
+Brief description and names of each of the modules that make up the software. Module is self contained unit that is a part of the solution to the project. A project is typically made of many modules. Each module has multiple use cases. Each Use case has actors, operations, and result outputs. 
+An outline of the functionality of every module. 
+Interface relationships and dependencies b/w the modules if any. 
+Database tables identitifed along with their key elements. 
+Complete architecture diagrams along with technology details. 
+
+Low Level Design Document:
+Functional logic of every module. 
+DB Tables with type info and size. Relations if any.(Databases are sp software to store data either in the form of rows and columns called tables or collections using NoSQL Databases). 
+Complete details of the interface. An interface is a conceptual group of operations that this module intends to perform but not sure about its execution in the current phase. 
+Lists of Exceptions that each use case will raise. 
+Complete the inputs and outputs for every module. 
+Addresses all the dependency issues related to the module. 
+Dependency is a term we use for the units that are to be provided for the current module to work. 
+It defines the rules and methods of the module. The developers who develop this software should strictly adhere to the terms and terminologies of the document. This includes entity names, function names, parameters, return types and all the stack holders of the coding practise.
+One repository will be created for all the developers and engineers to have a common place where people can view, checkin and add new code into this location. This is called as Code Repository. Software like Git which helps in maintaining the code within the group is used. 
+Coding: 
+Once the system design and the repository is created, developers start building the system by writing the required code using the pre-choosen programming language. In the codeing phase, tasks are divided as Modules and Units each assigned to individual developers. It is one of the longest phases of SDLC.  In this phase, the developer must adhere to the LLDD. He needs to follow certain predefined coding guidelines. Coding guidelines include the naming of programming structs like classes, structures, functions, variables, parameters for functions and many more. 
+There is also a std for choosing the programming tools like compilers, debuggers, Code managers and use them for code developement.  
+Developers also write unit test cases to provide test results for the units of code they develop. This feature is called as Unit testing which is the part of the coding phase. This testing is to test the code U have developed before U place them in the repository. 
+
+Testing: 
+Once the s/w is complete, it is deployed to a Testing environment. The testing team will test the functionality of the entire system thro E2E Testing(End to End) using Testing Automation tools like Selenium. This will ensure that the Entire App works as per the Client requirement. 
+Here QA and the Testing teams might find bugs/defects which they message to the developers as TICKETS. The Developer Team fixes this bug and closes the tickets. Each closed Ticket is again sent for RETEST to the Testing Team and QA. This is a continuous Process until the software is made bug-free, stable and working as per the business requirement of the System. 
+U have tools like Atlassian Jira which automates the testing process and reports all the results to all the stack holders of the application process. 
+
+Installation/Deployementg on Production Server:
+After the completed testing process, the final deployement process begins. Here Deployment complexities are tested and finally put in place. Production server issues are resolved here. Based on the feedback given by the project manager, the final software is released and tested on the actual client's machine. Here any changes like Usernames, passwords, File Systems will be set right using config files provided by the developer Teams. 
+
+Maintenance: 
+Once the customers start using the software, the following 3 activities might occur:
+Bugs when the users do not provide the info that matches the system requirement. This might occur in some scenarios where the part is not at all tested. 
+Upgradations for the software is to provide newer versions of the software.  
+Enhancement.: Adding new features to the existing software. 
+------------------------------------------------------------------------------------------------------------
+Popular SDLC Models:
+WaterFlow Model.(Followed in Epsilon)
+Interative WaterFlow Model
+ProTyping model
+Evoluationary Model
+Spiral Model.
+RAD Model. 
+Agile model(Followed in Epsilon).
+
+------------------------------WaterFlow model---------------------------------
+One of the oldest forms of software development methodoligies. This is the fundamental model based on which other models are designed and developed. In the course of time, this is now said as the most theoritical model and highly impractical for development. 
+In this case, the outcome of the previous phase will become the input for the next phase. 
+This is highly document-intensive where earlier phases documenting is what is needed to be performed in the subsequent phases. 
+
+What is THE WATERFLOW MODEL?
+"Water Flow Model is a sequential model that devides software development into pre-defined phases. Each Phase must be completed before the next phase could begin with no overlap b/w the phases. Each phase is designed for performing specific activity during the SDLC phase. It was introduced by Winston Royce in 1970". 
+
+When to use this model?
+Works well if:
+Requirements are not changed frequently. 
+Applications are not complicated and huge. 
+Project spanned for short time(1 to 2 years). 
+Requirements are clear. 
+System environment dont change. 
+Technology and tools used are not dynamic and is stable. 
+Resources are very much available and well trained. 
+Well Defined milestones. 
+
+Disadvantages:
+Clients cannot see the final output till the completion of the project. 
+It is not desirable for complex projects where the requirments change frequently. 
+Documentation takes a lot of time of the developers and Testers. 
+Bugs are notified only after the software is completed.  
+High risk of Uncertainity till the project is deployed. 
+
+
+Incremental Model:
+It is a process of s/w development where the requirements are broken down into multiple standalone modules of the SDLC. Incremental developments are done from analysis to maintenance in each such break up called Build. Each Iteration passes thro the Subrequirements, design, coding and Testing. 
+Advantages:
+The System is put into production when the first increment is delivered. Usually the first increment will be a core product where the basic requirements are addressed and suplimentary features are added in next increments. Once the core product is analyzed by the client, the plan for the next increment happens. (Not be always). 
+
+Features:
+System development is broken down into many mini development projects. 
+Partial Systems are successively built to produce a final total System. 
+Core Requirements are handled first and other features are enhanced later. 
+Once the requirement is developed and deployed, the requirement for that increment gets frozen. 
+
+When to use Incremental Models?
+Requirements are clearly understood. 
+Client demands an early release of the product. 
+When s/w Team is not well skilled and trained. 
+When High risks and goals are involved. 
+Well suited for Web Application and product based Companies. 
+
+Advantages:
+Software could be developed quite quickly. 
+It is less costly compared to others. 
+Customers respond to each build. Any minor changes could be implemented without altering the existing build process. 
+Errors can be identified at early stages. 
+
+Disadvantages:
+It requires a proper planning to break up the modules into core and dependency modules. 
+It might cause problems due to system architecture not clearly understood and some requirements might be skipped totally, 
+Each iteration is expected to be non overlappable which will not be the case usually. 
+Rectifying a problem in one unit requires an ample corrections in all the units that consumes it leading a lot of time for maintainence. 
+
+Spiral Model:
+It is an combination of waterflow and iterative models. Each phase is a component with a design goal and ends with the client reviewing the progress.  The development team starts with a small set of requirements and goes thro each development phase for those set of requirements.  The Engineering team adds the functionality for the additional requirement in every increasing spirals until the app is ready for the production phase.  This feature itself leads to the Agile Model in the future software developments. 
+
+When to use Spiral Methodology?
+When the project is large and its releases are required to be frequent. 
+When risks and cost evaluations are important. 
+Well suited for medium and high risk projects. 
+When the requirements are unclear and complex. 
+Changes are anticipated at any time. 
+When long term project commitment is not feasible due to changes in economic priorities. 
+
+Disadvantages:
+Risks of not meeting the schedule or budget is very high. 
+It demands risk assesment expertise. 
+It must be strictly followed for the smooth operation of the spiral model. 
+It is very costly for smaller projects. 
+Spirals can run indefinetly. 
+
+V Model is an SDLC Model where the execution of the processes happens in a sequencial manner in a V Shape. This is also called as Verification and Validation Model.  It is an Extension of the WF model and is based on the association of a Testing phase for each corresponding development phase.  For every development Cycle, there will be a direct link to an appropriate Testing phase.  It is claimed to be highly diciplined model and like WF, the next phase starts after the previous phase is completed. 
+Work starts with Business requirements, System Design, Architectural Design, Model Design, Coding phase, Validation phase, Unit Testing phase, Integration Testing, System testing, Acceptance Testing. 
+When to go for V Model?
+Requirements are well defined, clearly documented and fixed(WF Model). 
+Product Defn is stable. 
+As verification is done at every phase, there is no ambiguities and undefined requirements. 
+Usefull for shorter projects. 
+
+Advantages: They are simple and easy to understand. Well Suited for smaller projects where the requirements are small and well understood and will not differ.  As testing is done at every phase, there is a little scope or 0 scope of Error or mis management in the project. 
+
+Disadvantages:
+Uncertainity and high risk. 
+Not good for OOP Design stds. 
+Once the App is in testing phase, it is quite impossible to go back and make changes to the functionality, which makes it very similar to WF Model. 
+There is working s/w that is developed based on this model. 
+Documentation is very much and eats ur time as its created in every phase of development. 
+
+Agile Methodology:
+It is an improvised version of Iterative and Spiral model with focus on process adaptability and customer satisfaction by providing working software product in more quicker manner compared to other SDLC Models. Agile breaks the product into small incremental builds. Each build is enhanced thro Iterations. The Duration of each iteration is not more than 2 to 3 weeks. Each iteration will involve cross functional Teams parallelly working in the areas of Planning, requirement gathering, Designing, coding , Testing and Deployment.  Every iteration will result a working product which will be displayed to the client and the other stake holders. 
+
+What is Agile?
+Agile is a process/methodology that is built on a principle that every project is unique by itself. Every time, any existing projects could be tailor made to meet the new requirement that best suits the current trend. 
+In Agile, tasks are divided into time boxes(Small Time Frames) to deliver the specific features for a release. The time for the release will not be more than 2 to 3 weeks. 
+Iterative approach is taken and working software is developed for every iteration. Each build is incremental in terms of features, the final build might not be known to the current stream of developers. 
+Each iteration will undergo: planning, req analysis, Design, coding, testing and deployement. all done within a small time frame. 
+Immediately the next iteration requirement gathering happens. 
+Because of its flexibility and limited risks, it is one of the most sought after methodology. Currently various tools and frameworks are available to support development thro Agile methodology. 
+The Agile development follows certain principles called as Agile manifesto which is followed among the Agile development community.
+Individuals and Interactions: Code is developed Individually and shared to all using iteractions within the teams. 
+Working Sofware: It is good to show a existing working software to the client rather than pages of Documentation. 
+Customer Collaboration: Continuos Customer interaction is required as both the client and the developer are not sure about the final product and need to talk quite frequently.  
+Responding to the change: Agile focuses on quick responses to change and continuous Development
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
