@@ -211,6 +211,337 @@ Individuals and Interactions: Code is developed Individually and shared to all u
 Working Sofware: It is good to show a existing working software to the client rather than pages of Documentation. 
 Customer Collaboration: Continuos Customer interaction is required as both the client and the developer are not sure about the final product and need to talk quite frequently.  
 Responding to the change: Agile focuses on quick responses to change and continuous Development
+----------------------------Day 2--------------------------------------
+What is agile methodology?
+Agile methodology is an interactive approach for s/w dev. It is divided into iterations. Each iteration takes a short time of 1 to 4 weeks. It is designed to deliver the ever changing business requirement. It distributes the s/w with faster and fewer modifications. 
+Each phase of development will span for 6 to 8 months. 
+It is divided into ideas, defining, coding, integrating and finally testing
+
+Roles in Agile:
+Scrum Master: Team Leader and a facility provider who helps the team members to follow the agile practises and ensures that the team members meet their commitments and the customer requirements. 
+Close Co-operation b/w the functions and the roles. 
+Works with the Organization to keep in track the progress of the iteration. 
+Ensures all the nessicities of the Team and ensures no disturbances will occur. 
+Any blocks that interupts the progress will be handled by the Scrum master.
+Practises of Agile:
+Planned meetings, Daily standups, Demo, Review, Retrospecitive meets, facilitate the decision making process.   
+
+Product Owner: he is the one who runs the product in the business point of view. He knows the in and out of the product: who uses it, what is the use of it, what is expected from it and final look of the product. 
+He defines the requirement and priorities of the development phase. 
+He sets the release dates and contents. 
+Responsible for the iteration and releasing the planned meetings 
+Prioritizes the process of development: which part is more important and ensures that important part be developed first. 
+He is the bridge b/w the Customer and the Team who develops it. 
+He will be accept the ideas of the team, ensures that it meets the requirements and finally approves the product before its delivered to the client. 
+
+banking software for a Cooperative bank society
+3 teams:
+1 Team: Customer Management->Customers in the core banking. ->CMS(7)(5 weeks)
+2 Team: Employee Management->Employees in the bank with various branches.->EMS(7)  
+3. Team: Services Management->Banking services to the Customers: Transactions, operations, services.(6)  
+
+Functional Teams:
+Every agile team will have 5-7 members Usual experience will be 4-6 years. It consists of 3 Developers, 1 Testers, 1 Tech lead.  This might be +- 2 members. 
+
+how it works? 
+User Requirement:
+Defines the requirements of the user in terms of functionalities. 
+User case: The Functionality will be executed by this user to achieve this business requirement. 
+This use case becomes User Story. 
+User story has 2 parts: Requirement and the Task to complete the requirement. 
+Requirement talks about what is to be done. It defines the needs of the user. 
+Each such requirement is implemented by TASK. Task defines how that requirement is accomplished. It defines how the functionality be achieved. 
+It is possible that each User requirement can be divided into multiple tasks if it is planned in the single iteration. 
+User tasks are estimated in hour basis, scheduled b/w 2 to 10 hrs. 
+
+Every requirement is validated using acceptance Testing 
+Criteria for the Software acceptance test to pass: 
+Functionality: The expected results are achieved for these inputs. 
+Behavior: The feature is implemented
+Performance. : Speed and no bugs. 
+Final Output: Satisfactory result....
+
+What is done after the successfull acceptance?
+It should be delivered to the client for final approval. 
+Changes and reviews have to be acknowledged. 
+Requirement gathering for the next itertion. 
+Team enhancements if required. 
+-------------------------------------------------------
+Advantages of Agile:
+Customer satisfaction is fast, continuous.
+Delivery is quick, and usefullness of the software is determined immediately. 
+Product is delivered fast and frequently within weeks instead of months. 
+Agile has smaller teams, so face to face interactions lead to best results.
+A continous monitoring of the design and techincal excellence. 
+Daily and close iteractions b/w the business people and the developers. 
+Regular adaptation to the changing curcumstances. 
+Even late changes in the requirements are handled with care without much hindarences.
+
+Disadvantages:
+Good for smaller projects. However big projects could be broken down to smaller projects and achievements are made. 
+There is no need for high intensity of designing and documentation. 
+Need of a experienced project member to tak crucial decisions in the meeting. 
+Cost of the agile development is higher compared to other development methodologies. 
+The project can go offtrack if the PM is not clear about the requirement and what outcomes he expects from it.
+
+Exercise:
+Analyze the Comparison b/w the Agile model and WaterFall Model.  
+
+How agile is implemented?
+SCRUM: Is a framework that helps Agile teams to work together. 
+Scrum and Agile are not the same as Scrum is focused on continuous improvement which is basis of agile methodology. It implements Agile in making the workings to go together with different teams and products. 
+
+Terms and Terminologies in SCRUM:
+A product is developed using series of repetations called SPRINTS. It breaks down complex projects into small sized units which makes it more manageable, allows the teams to create high quality work, faster development and more frequent releases.
+
+Sprints are short time boxed periods for the Scrum team to complete an amount of work. Right sprints will help the agile teams to ship better software. 
+
+Sprint plan: Basically an cation in scrum that starts the sprint. Plan will define what can be delivered in that sprint It also tells how the work is achieved and is done with participation of all the scurm team members. It sets the period where all the work is to be done.  It solves the following questions: 
+THE WHAT: The goal of the spring and the backlog items which contribute to the goal achievement, 
+THE HOW: Planning of the nessasar work on how to achieve and deliver the sprint goal. 
+THE WHO: The roles invoked in using this feature, It tells about the value the customer expects from this sprint.
+THE INPUTS: The data and the resources required to start the sprint, 
+THE OUTPUTS: The critical outcome of the sprint to meet.
+
+Every Product has Product Backlog:  It is registered list of work for the development team. The Essential tasks is represented in the top of the product backlog and next steps will be notified below one after the other. The Developer team pulls the work from the product backlog. It is basicaly a roadmap and requirements. This will be designed by the product owner as a single list. This is called as Story. 
+
+Imp Points: Each iteration is considered as SPRINT->Plan, Daily Scrum, Spring Review->Sprint Retro->Delivery. 
+Product Backlog->list of things to be done during this product development.
+Sprint backlog->List of things to be done during this current cycle. 
+Review->Matches the expectations and the actuals. Limitations will addup to the backlog. 
+-------------------------------------------------------------------------------
+Daily Stand ups:
+Its a term used to day-to-day status meetings on the project by the members of the agile team. It discusses the regular updates as well the problems of the team members:
+Usually the meeting will be for 15 to 20 min. 
+It discusses: what one did yesterday, what is planned today, if there are problems explain it.  
+It is done on day to day basis irrespective of the location of the team members. 
+
+What is said to be Done. 
+In Agile, a Definition of DONE is in 3 different stages: User Story(Requiement), Iteration(Sprint) and Product Release(Delivery). 
+Points to check:
+For User Story:
+All the code and documentation is checked in(Completed and uploaded to the code repository):GITHUB...
+The product has passed all the Unit tests. 
+All the acceptance Tests are completed. 
+The Product owner has accepted the story. 
+The Help Text is written
+
+Iteration: 
+Performance of the product is satisfactory. 
+Product Back up is complete. 
+User has accepted the requirement and is ready to move to the next iteration. 
+Defected Products are fixed or postponed to the next iteration. 
+
+Release:
+The System satisifies the current System Configuration
+Performance of the System in the environment. 
+Data and software is secured or not. 
+Bugs, Logs and recovery plans are tested.(DRP: Disaster Recovery Plans) 
+
+Software development happens in Agile:
+Development should happen on a sustainable manner. No gimmicks or heroic development. Invokes good estimation, effective branching strategy for managing the code. Code is automatically tested to protect the quality of the code. 
+Code Best practises must be adhered to..
+Set up and maximize the project management tools: Jira's release Hub. 
+There should be a complete automation from the build to the release straight from the release hub. 
+Use of Development and operational Tools like Docker and Kubernetes for containerization of the products. 
+
+Tools for Agile Development:
+JIRA Agile: Developed by a Atlassian. It is used for issue tracking, bug tracking, project management. Its dashboard contains lots of usefull functions to define a sprint, track them, maintain story boards and manage them. It can be downloaded and installed on multiple devices. 
+
+Github: It is one of the largest distributable code management softwares available. Currently maintained by MS. Developers can store all kinds of code and its features for vast no of projects. It keeps track of record edits across the team in real time basis. It can be integrated into IDEs like VS Code, VS, Eclipse, Intellij...
+
+PlanBox is a tool that tracks the progress of charts. 
+---------------------------------------------------------------------------------------------------------------
+Big Bang Model: 
+In the big bang model, developers dont adapt any specific process oriented methodologies. Development begins with basic funding or no funding at all and Ur efforts become the inputs and output of the software developed might not be completely in agreement with the client. 
+Major focus is on s/w development instead of planning, documentation and other things. The Requirements are understood thro an oftrack correspondence like chat, email or over phone. The requirements are enforced immediately. Any minor changes required will be injected without much trouble to the system. 
+Well suited for a group of 3 -5 developers and majorly used in educational and practise projects. This is suited when the requirements are not well understood and the final date of release is not given. 
+
+Advantages:
+Simple model and less planning is required. 
+Easy to manage as the size is small. 
+No of services will be very less.
+Changes can be done and hense flexible. 
+Release date is not specified. 
+
+Disadvantages:
+Not good for long lasting projects. 
+High risk of project completion or completion to 100%. 
+Could be expensive if the requirements are misunderstood. 
+-------------------------------------------------------------------------------------------------
+Prototype Model:
+Protyping means building a software with limited or basic functionality which may or may not hold the exact logic of the expected Software to be built.
+Currently very popular, as it has benifits: From the customer point, he comes to know about the capability of the Developer and his scope of building the software to meed the requirement. The developers will have an understanding about the client requirements initially and get feedback about it very quickly and make the developer understand the expected behavior during the development of the product. 
+It involves the step-by-step development in the following manner:
+Basic requirement Identification: In terms of UI screens, functional features which might not satisfy the original intention, but the functionality is achieved in a round about manner. 
+Developing the prototype: Initial Development happens to the prototype, UI Screens are shared and possible outputs are also presented. They might not behave as per the actual requirement, but will provide the functionality with mock data and mock objects. 
+Review the prototype:The developed code is demoed to the customer, take feedbacks and is used to further enchance the product. 
+Revise and enhancement:  Revision includes the requirements, time, budget and technical feasibility. The changes accepted are further enhanced to the product to give a new version with new feautures into the system. This cycle repeats till all the customer requirements are met. 
+There are 2 types of Prototypes: Vertical and Horizontal:
+Horizontal Prototyping displays the user with UI about the product and gives a broader picture of the entire system with focussing on any specific feature. Not all features are implemented but atleast will throw some light on the expected enhancements. Well suited for selling the product to various organizations. 
+Vertical model is used when U want to provide indepth functionality of a perticular use case. These are more technical in nature and involve detail functionality of the sub system. Database, interactions, file alterations and so forth.....
+
+Different prototypes:
+Throw away Type: One model is created, once approved, it is discarded and create an new program for the client as a real time project.  In this case, the prototype is created with minimal and limited requirement gathering. Once the actual requirement is understood, a new system will be created discarding the existing prototype(Things are created from the scratch). This is also called as RAPID Prototyping or Close ended prototying. 
+
+Evolutionary type:
+Core features are implemented in the prototype itself and other requirements are gathered and added as when its required. The current product becomes the heart of the complete system and other organs of the system will be added on need basis. The well understood requirements are completed first and others later. 
+
+Incremental Type:
+Here we create multiple ready to use prototypes and finally stitch them together to meet the requirement. based on the inputs we integrate the required ready to use prototypes into a final product and deliver to the client. 
+
+Extreme Type: In web and mobile app development, we use this kind of prototyping.  We divide our development into 3 phases: One phase will give the UI Prototype like HTML pages, UI Screens to the client(Almost all). 
+Phase 2 will contain the data processing components like DAL Components, Services are created to link with the UI. 
+Phase 3 will invoke the integrations of phase1 and phase2. 
+
+Advantages:
+High level of involement from both the ends(Developers and Customers). 
+U program for the missing functionalities. 
+Reduces the time and costs as defects can be deducted much easier. 
+Users get clear understanding of the product as they will have running product with them and easy to adapt. 
+
+Disadvantages:
+As the original plan is unknown, some prototypes might be useless, but still u would spend time and resources. 
+Users will find hard to differenciate the actuals and prototypes. 
+Developers are forced to modify the prototypes with out understanding the feasibility of the project. 
+
+RAD Model:(Rapid Application Development) is based on prototyping and interative development with no specific planning involved. RAD requirements are gathered using workshops where the Requirements will be generic. These generic models will further lead to create specific models based on the fine tuning done to meet individual software users. 
+
+Software development:
+Single Tier: Store some data, retrive the data in the most optimized manner and present the data in any visual format that is requested by the client. 
+Principles:
+Modularity: UR code should do one job at a time. Dont mix all the things into one function or one program. 
+A Computer program is a set of instructions given to the machine which will interpret it and perform some operation as per the instructions. These programs are written in plain human readable syntaxes. These syntaxes are standardized by certain vendors like C, C++, Java, Python, PHP, C#, R and many more.  These are called as Computer languages. Based on UR language selection U create the instruction code called as PROGRAM. This Program is converted to a machine instruction code called as EXE. When U run this File, UR program executes.
+The conversion of UR program to a machine code is called as BUILDING process. It includes compiling and building. Compilation is a syntax checking paridiam. The building is tailoring all the pieces of code to a sequence of execution. 
+Syntactically UR program should be correct. Grammer, required nessicities should be provided before U can build the program. 
+Entry point from where UR Program begins. usually this will be named as main method. UR program starts from here and ends if this main ends. Program terminates after the end of the main operation. Inside this main, U write instructions in the form of statements and expressions. 
+U should not dump everything inside this main. Instead we will semantically group the statements into functions, creating them and calling them in main method....
+A Single tier App is one which has all the programming constructs in one Executable. However the EXE has groupings done in the form of classes, functions, structs and many more. But everything is available within one Big Project. Usefull for smaller projects and limited no of developers. 
+
+Multi Tier:
+Divide UR Project into small precompiled units where one unit can be replaced with another if there is any problem. 
+
+Service model: Services are sp Components grouped into functions which are exposed thro network protocols to be made available on multiple platforms. They can use protocols like TCP, HTTP, SMTP depending on what operations U want to perform.
+Prominent services are available as REST Services: Functions that are invoked using Web based HTTP Methods: GET, PUT, POST, DELETE and transfer data across the platforms using JSON and XML.  
+---------------------------------------------------------------------------------------------------------------
+Tools : 
+A Common place to store Ur Source code. 
+Versioning of the code becomes problem. Changes made by different developers are not updated to all. 
+Interaction with multiple users and all to come to a common platform is a question. 
+Developers has to have secured place to store and any change made by any developer should be well documented and notified to all. There should be no denial from any one once its commited to the changes. 
+
+Tool to organize the Code in a professional Manner. Version control System. It is a management tool for changes to be made to the documents, programs, code and large websites that keeps track of changes, collaborations within the team for better management of the resources. 
+Every such change U make to those documents is called as VERSIONS.
+Advantages:
+Collaboration: Involves integrations of multiple documents into one. One user can modify other User's document.  Changes can be made to other documents and that changes are well documented in the system. 
+VCS maintains snapshots of the versions identified by a Hash value and stored inside the repository. It is also documented about the time and the user with messages on what and when these changes were made. Version will be properly named accurately and should be easy to retrieve when ever we need. 
+Backup: Most of the VCS, there will be 2 players: Central Repository and Local Repository. Central repository is the place where all the data is stored paramanently. Local Repository are local to each user and will pull the documents from the Central Store. If the local Store is gone, U still have the data from the Central Store, for some reasons if the central store crashes, U still have the local store with U.  Local Stores are stored in the respective user machines. 
+Analyse: When any change is made to the documents, VCS provides proper description. What has changed and when it was changed. Therefore U can analyze how Ur project has evolved in the course of time and changes that are made in different versions. 
+------------------------------------------------------------------------------------------
+VCS Tools: Git, Bucket, mercurial, CVS, Subversion. The most populare are Git and Bucket. 
+Git is maintained by Microsoft. 
+BitBucket is maintained by Atlassian. 
+According to FireFox analytical team, Git is 100 times more used than its nearest couterpart. It is the most widely used VCS available in the computing world. 
+--------------------------------------------------------------------------------------------------
+Git and GitHub:
+Git is a distributed version control tool that supports distributed non linera work flows by providing data assurance for developing quality software. 
+GitHub is the central repository of storing all the documents inside a cloud environment. 
+Github will have multiple colaborators(Users) who have an installation of the repository in their respective machines using a tool called Git. Git is both Cmdline based as well as GUI based Environment. 
+Collaborators pull the repository to their local machines, make changes to these local repository, commit those changes and finally push the modified data into the Github. Github keeps track of all the modifications, updations, including adding, removing, changing the documents in a time based version management. 
+Features of git : Distributed, Compatible, Non-Linear, Branching, Lightweight, Speed, Open Source, Reliable, Secured and Economical. 
+ What is a repository?
+ It is a directory or a storage space where UR Projects, documents can reside. It will be local to a folder in Ur comp or it could be a storage spce on Github or another online Host. U can keep code files, Image Files, PDF Documents and many more inside it. 
+ 2 Types: Central repository and Local Repository 
+Central Repository(GitHub): Located in a Remote server(Cloud).  It is distributed by the Username and his project details. It has a folder called .git which contains all the versions and management files. This will be the place meant for the team members to share and exchange the data. Any one can download or read the data, but very few can add or modify the data. 
+Local Repository is created using GIT Tool. This will be typically in the local machine, Resides as a git folder inside UR Project's Root. Only admin of that machine can work with the repo.   
+Interactions b/w the Local and the Github are handled by the Git Tool. U need to download the git inside UR machine. 
+
+U need to create an Account in GitHub.
+Once U login to UR Account, U could create a Repo. This will be the central repo for UR Project. 
+Install Git in ur machine. Git is available as Bash and GUI. Programmers use BASH, Cmd line Utility for interacting with Central Repo. 
+Create a folder to pull the central repo to Ur local machine. 
+Open the folder thro Git Bash, a very colorfull cmd prompt specifically designed for handling git commands.(Windows).
+---------------------------------------------------
+Day 4:
+DevOps: Development + Operations. 
+The programmer will not only develop the Application but also will be responsible to handle the operations of the Application in the client side. VSS(Visual Source Safe) TFS(Team Foundation Server). 
+It runs in my machine but not on the client machine. These issues were handled by the Operations team which had a basic idea on the app as well as trouble shooting the Config files.  These config files were written in XML, Currently JSON is used. XML was text based, so it was easy for a non tech guy to modify any changes that was required to make the app run. 
+DevOps is one methodology which allow the developers to create an environment similar to VM where they actually develop the App and run it there it self. This image is what is shared to the User team and they simply run the App in the same environment as what the developer has created. 
+
+Environments were created as Containers. Each container had one or more images of the Envinronment which was loaded, and the app would sit on that environment. App executes within the environment without worrying about the OS on which the User or the developer is working. Base OS should be the same for both the developer and the user. 
+
+Docker is a container tool designed to benifit both the developers and operations. 
+It allows to easily install and run the s/w without a need of external dependencies other than what is required to run the application. 
+Docker will remove the never ending problem "CODE WORKS ONLY IN MY LAPTOP". 
+Operations team will use the same docker environment shared by the developers so that it works as if it is running in the developer machine only. 
+Helps in development of applications in an agile environment also as docker images are shared among the developers also. Like GitHub, U have Dockerhub which will allow to upload the Docker image into the certral repository and allow users and collaborators to use the image locally in their machines. 
+Docker is not only used for deployment, it is also used for development. 
+"DOCKER is an opern source centralized platform designed to create, deploy and run complex applications without worrying about the OS kernal system of the Environment".  It is different from Virtual Operating Systems as in this case, Dockers dont create new OS, it only creates containers to hold the Application on that OS. They share the OS kernel with other containers, It allows appliations to use the same Linux kernel as a system on the host computer, instead of creating a whole virtual OS. 
+
+
+Docker has components: Client, Server, Machine, Hub and Composes. 
+VMs create a virtual kernel and will be as if a new OS is sitting on UR machine. 
+Docker Containers vs VMs:
+Containers are created on existing OS as it uses the same kernel but a different distribution. There is no wastage of memory and Integrations within the containers are fast and efficient. 
+VMs uses independent OS, with lots of memory used from the host machine and integration is slow as it will be more like machine to machine communication. 
+
+Advantages of Docker:
+Containers are faster to run. It uses less memory. it provides continuous deployment and testing environment. No need for external dependencies. It is a light weight virualization. it does not require the full OS to run the Apps. 
+
+limitations:
+Not good for Rich GUI based Applications. Its an overweight as U work on an additional Layer. Applications that talk to the OS will be slow. Dockers does not provide cross platform compatibility means if an app is designed to run in a docker container on windows, then it cant run on Linux or vice versa. 
+U should have some knowledge of Unix and its programming to work in Docker images and programming languages like Java, PHP, Python, etc. 
+
+Workflow of Docker:
+Install the Docker client in UR machine. 
+Open the Docker Cmd and Run the Docker commands. 
+docker info: Display the info about Ur current docker client. 
+docker container ls: Lists all the containers in Ur docker. 
+docker image ls: lists all the images installed in ur docker. 
+
+SOLID Principles in OOP. (C++):
+Object Oriented programming is a programming technique to develop app software using Components called Classes and Objects. A Class is a user defined data type created to be used in that perticular program. This User defined type could be a virtual representation of a real time entity. 
+Employee: Could be represented in UR Code by creating a class, and using the clas thro an object. object is like a variable of the class. class is basically a defn on what this entity will do, what will it contain and other features of the entity. A class defines what the entity will do. The real representation of the entity is the object of the class(Instance of the class). 
+SOLID Principle: The principles that are to be followed while designing  a class and object in a program . The principles have internally lead to the concept of OOP features: Encapsulation, Inheritance, Polymorphism, Abstraction. 
+S : Single Responsibility Principle
+O: Open-Closed Principle. 
+L: Luskov's Substitution Principle.
+I: Interface Segregation Principle
+D: Dependency Inversion Principle. 
+
+Single Reponsibility: Each class should do only one job. Dont mix all the things into one. U need to create multiple classes for each of the semantically grouped operations. : Employee: id, name address, salary. 
+Project: ProjectId, Name, Client, ContactPerson, StartDate, EndDate, Cost.
+EmpManager: addEmployee, findEmployee, deleteEmployee, updateEmployee. (Repository) =>DataStorage: File, Database...
+Modularity in UR code is achieved because of this principle. Multi layered Apps are developed as per this principle. 
+
+Open-Closed: A Class is closed for modification but open for extension. leads to the concept of inheritance. Onc the class is created and used, it should not be modified. However Ur class could be extended into another class and any changes could be made to that class rather than UR class. 
+
+Luskov's Substitution Principle: A Class object can be substituted by any of the sub class objects as long as their signature is not modified.  This principle is what is used in Runtime polymorphism. A Base class object can be instantiated to any of the derived types as long as the derived type has no additional operations. 
+
+Interface Segregation Principle: U should create different interfaces to meet each and every client specific requirements instead of a general interface. 
+Interface is a unit like a class but contains only definitions in them. It does not contain any implemention. 
+Account: Id, name, address, contact, bal, calculateInterest, credit, debit....
+With interface, one can create multiple implementations based on the same interface and substitute it thro RTP. 
+CRUD: add, remove, update, delete.  
+
+Dependency Inversion Principle: It is good to depend on abstraction istead of Concretions. If U have a function that returns a data type, it is good to have a function that returns its base type rather than its subtypes. For every subtype, U end up creating individual funtions which might not be feasible as new sub types could be created in the future. So to accomodate both existing as well as the future types, its good if UR code is working with abstract type(SUper base type) as all the current subtypes and new subtypes that will be created in the future will still retain the same functions but differ in their functionalities. 
+
+-----------------------------------------------------------------------------------------
+Intro to Jenkins, Jira. 
+Jenkins is an app that allow to have a continuous integration and delivery of the project regardless of the platform U work. This app will help in automating various phases of app developed irrespective of the SDLC methodology U follow. It allows to integrate development, testing and deployement. This automation feature is enabled with GUI and Command line tools that will help in performing its operations at various phases: Once development happens, its automatted to move to Testing team which will internally return the results to the development team, if required the Development team reworks on the code which will further automate the testing team to perform the tests, once completed, it will automatically deploy to the respective environment if placed on the docker. The management of these could be done using container management tool called KUBERNETES.
+U could download the Jenkins from the jenkins-cli-org which will help U in installing the Jenkins software, IT does not have a UI of its own, it rather depends ona browser that runs it. 
+
+Jira: is a software testing tool that also maintains bug tracking and issue maintainance feature. In the recent times, it has upgraded to perform Automations based on agile methodology. It helps in managing the defects of the project, tasks of the project in the form of issues. U get a dashboard on which these operations of Agile hanlded. It will allow to implement agile either in the form of Scrum or Kanban. If U choose the SCRUM Project it will automate the process and allows users to invoke in the project management.
+Features: Projects, Issues, Workflows, Dashboards....
+Git, Dockers, Jira, Kubernetes.
+
+
+
+
+
+
+
+
 
 
 
